@@ -7,20 +7,20 @@ class Elyro < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cofy-x/elyro/releases/download/v0.1.1/elyro_0.1.1_darwin_arm64.tar.gz"
-      sha256 "7a97939b3db3d7af780dafe9a1983a27b21951a740c57b9cad3aa5565f745b49"
+      sha256 "ee00ba35bf606198d8ec3e8b1f787889d49e3ae8899c4b808233bfd89f3cd8ed"
     else
       url "https://github.com/cofy-x/elyro/releases/download/v0.1.1/elyro_0.1.1_darwin_amd64.tar.gz"
-      sha256 "65808be2538d03a0d11a85b5ea3a55abf76aed39032019bf0f260f8eb4b6cd51"
+      sha256 "cbdda91c673a3af6c355ff9450ebc4cdff705522be6b3ee50dfdef885f3ffa75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/cofy-x/elyro/releases/download/v0.1.1/elyro_0.1.1_linux_arm64.tar.gz"
-      sha256 "8a2463ad566a976e6e436570bae58d8b1477b54a0c1153d4767295e2b2207449"
+      sha256 "5dce33525b21fcd43fcf6d83ecc8c4a2eba202763a7edc0f9c08c4d76198e06c"
     else
       url "https://github.com/cofy-x/elyro/releases/download/v0.1.1/elyro_0.1.1_linux_amd64.tar.gz"
-      sha256 "24a8fa4c24f6de28126e85f19e575d97d0b0a1aa1b16ea409c3b6d41445d430f"
+      sha256 "d24b45bae17ff0c07878bbe5ba8ea316b0943a0e575ae06bf6cc36e735ff0c2a"
     end
   end
 
