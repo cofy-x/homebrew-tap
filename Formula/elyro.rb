@@ -1,26 +1,26 @@
 class Elyro < Formula
   desc "Local Linux workspaces for developers and coding agents"
   homepage "https://github.com/cofy-x/elyro"
-  version "0.1.2"
+  version "0.1.3"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cofy-x/elyro/releases/download/v0.1.2/elyro_0.1.2_darwin_arm64.tar.gz"
-      sha256 "d8a185e308f336bf23ad8b9f5446b52ff60771d16c07c2cd3b6a1a59a082d6df"
+      url "https://github.com/cofy-x/elyro/releases/download/v0.1.3/elyro_0.1.3_darwin_arm64.tar.gz"
+      sha256 "f61490d19d977df42bdd8b509d28862b98f9d5e67934a642985261b175eec06c"
     else
-      url "https://github.com/cofy-x/elyro/releases/download/v0.1.2/elyro_0.1.2_darwin_amd64.tar.gz"
-      sha256 "99948c633138e4c1ccce055c35ac5bc4b67a8683d6dcb7bbdff889d152058474"
+      url "https://github.com/cofy-x/elyro/releases/download/v0.1.3/elyro_0.1.3_darwin_amd64.tar.gz"
+      sha256 "d7ec02404e3e550aa61525067b56ecc98ee1cac0401836210f71cbc0d250acd9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cofy-x/elyro/releases/download/v0.1.2/elyro_0.1.2_linux_arm64.tar.gz"
-      sha256 "25c4ea926ef5bc98e58866719f27a7a625abf6a18e8a28cd4eda283e7b8ca1e6"
+      url "https://github.com/cofy-x/elyro/releases/download/v0.1.3/elyro_0.1.3_linux_arm64.tar.gz"
+      sha256 "abebb3ee3b2db80e3984251ed17ab8cd12842d634691ac07d8f1cf6949eaa4c9"
     else
-      url "https://github.com/cofy-x/elyro/releases/download/v0.1.2/elyro_0.1.2_linux_amd64.tar.gz"
-      sha256 "73d91d3540e84c7ad87109066813f769b23cbe4fd2f8b0ae9d672899857cc5ad"
+      url "https://github.com/cofy-x/elyro/releases/download/v0.1.3/elyro_0.1.3_linux_amd64.tar.gz"
+      sha256 "8e73c5b79811a03859e76be691992030bd050ac0d77f96bb45407267dee27105"
     end
   end
 
