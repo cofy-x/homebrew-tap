@@ -1,26 +1,26 @@
 class Axern < Formula
   desc "Programmable execution platform for isolated AI-agent workloads"
   homepage "https://axern.cofy-x.space"
-  version "0.9.1"
+  version "0.10.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cofy-x/axern/releases/download/v0.9.1/axern_0.9.1_darwin_arm64.tar.gz"
-      sha256 "06bfbd0882af9ecced35f38be1ff67d61716de57acec4d57a724c3f0518f53d8"
+      url "https://github.com/cofy-x/axern/releases/download/v0.10.0/axern_0.10.0_darwin_arm64.tar.gz"
+      sha256 "850d00693170690e4fa0dd31a0424e43858d44f4a16ad940d46f5f856995d597"
     else
-      url "https://github.com/cofy-x/axern/releases/download/v0.9.1/axern_0.9.1_darwin_amd64.tar.gz"
-      sha256 "83b1c81e37af4ee55d6830bc941536944b0e7338ed8096e0e5b0270030f948b1"
+      url "https://github.com/cofy-x/axern/releases/download/v0.10.0/axern_0.10.0_darwin_amd64.tar.gz"
+      sha256 "174ce1c324183669b750483a90221924ed04bbf754888d03e4eb824c62e6d552"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cofy-x/axern/releases/download/v0.9.1/axern_0.9.1_linux_arm64.tar.gz"
-      sha256 "4f0ad2de085d32d4d4a718d4b56274f2b9f8c4661dea671af11bb624cd5be85c"
+      url "https://github.com/cofy-x/axern/releases/download/v0.10.0/axern_0.10.0_linux_arm64.tar.gz"
+      sha256 "93a847349eb8b6289c25d1f7d2c76771e6797b3169c24cc5d0d0bfae2e93c860"
     else
-      url "https://github.com/cofy-x/axern/releases/download/v0.9.1/axern_0.9.1_linux_amd64.tar.gz"
-      sha256 "4bfcd035ed12150366ca071a6dd0fa8eb5be938a3c96106bb8162e1ba20a318e"
+      url "https://github.com/cofy-x/axern/releases/download/v0.10.0/axern_0.10.0_linux_amd64.tar.gz"
+      sha256 "bc2605720be1505a9cc02cb87ec36440aaf253cd5add5ea453dd68ce3ca24592"
     end
   end
 
